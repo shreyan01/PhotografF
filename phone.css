@@ -1,0 +1,48 @@
+/* CSS Reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS Variables  */
+:root{
+    --navbar-height: 400px;
+}
+
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    flex-direction: column;
+    height: var(--navbar-height);
+}
+/* Services */
+#services{
+    flex-direction: column;
+}
+/* Home */
+#home{
+    top: 100px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+}
+#home p{
+    font-size: 13px;
+}
+#home::before{
+    top:100px;
+    height: 380px;
+}
+.h-primary{
+    font-size: 26px;
+}
+/* Clients */
+#clients{
+    overflow: hidden;
+}
+/* Footer  */
+footer{
+
+}
